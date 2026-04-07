@@ -10,6 +10,7 @@ class Solution:
         result = []
         if len(s) < len(p):
             return result
+        # 可以使用diff来统计不同的字符数量，减少比较的时间复杂度
         for i in range(len(p) - 1):
             s_count[ord(s[i]) - ord('a')] += 1
         left, right = 0, len(p) - 1
