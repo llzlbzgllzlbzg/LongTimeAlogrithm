@@ -1,3 +1,4 @@
+# 可以采用递归的方式翻转链表, 递归表达式为current.next.next = current, current.next = None
 from typing import Optional
 
 
