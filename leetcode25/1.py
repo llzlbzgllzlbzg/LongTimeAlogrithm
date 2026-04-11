@@ -18,6 +18,7 @@ class Solution:
                 prev = current
                 current = next_node
             return end, start
+        
         dummy = ListNode(0, head)
         group_prev = dummy
         while True:
