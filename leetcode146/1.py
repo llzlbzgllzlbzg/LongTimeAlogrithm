@@ -1,5 +1,4 @@
 class LRUCache:
-
     class Node:
         def __init__(self, key: int, value: int, prev: 'Node' = None, next: 'Node' = None):
             self.key = key
