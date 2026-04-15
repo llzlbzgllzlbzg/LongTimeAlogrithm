@@ -1,3 +1,7 @@
+# 预处理回文串可以用
+# for i in range(n - 1, -1, -1):
+#    for j in range(i + 1, n):
+#        f[i][j] = (s[i] == s[j]) and f[i + 1][j - 1]
 from typing import List
 
 
