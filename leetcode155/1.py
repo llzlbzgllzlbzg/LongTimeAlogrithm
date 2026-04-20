@@ -1,7 +1,7 @@
 class MinStack:
     def __init__(self):
         self.stack = []
-        self.min_stack = [math.inf]
+        self.min_stack = [2 ** 31]
 
     def push(self, x: int) -> None:
         self.stack.append(x)
